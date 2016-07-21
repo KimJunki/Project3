@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ingrdients"></activity>
+        <activity android:name=".ingrdients" />
+        <activity android:name=".direction1" />
+        <activity android:name=".direction2" />
+        <activity android:name=".direction3" />
+        <activity android:name=".direction4"></activity>
     </application>
 
 </manifest>
