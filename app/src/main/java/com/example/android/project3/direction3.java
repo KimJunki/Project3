@@ -17,9 +17,9 @@ public class direction3 extends AppCompatActivity {
             public void onClick(View v) {
 // TODO Auto-generated method stub
                 Intent intent = new Intent(direction3.this, direction2.class);
-// to start first activity
+// to start second activity
                 startActivity(intent);
-// start first activity
+// start second activity
             }
         });
 

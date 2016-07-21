@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#ffca4c">
 
     <TextView
         android:layout_width="match_parent"
@@ -10,13 +11,17 @@
         android:text="Step 4"
         android:textSize="24sp"
         android:layout_marginTop="8dp"
-        android:layout_marginLeft="16dp"/>
+        android:layout_marginLeft="16dp"
+        android:textColor="#51280c"/>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:src="@drawable/direction4"/>
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/direction4"
+        android:textColor="#51280c"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -25,7 +30,8 @@
         android:textSize="24sp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:textColor="#51280c"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -38,7 +44,8 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp"
-            android:id="@+id/finishActivity"/>
+            android:id="@+id/finishActivity"
+            android:textColor="#51280c"/>
 
     </RelativeLayout>
 

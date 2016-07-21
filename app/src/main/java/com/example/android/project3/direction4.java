@@ -12,15 +12,15 @@ public class direction4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_direction4);
-        Button terminate = (Button)findViewById(R.id.finishActivity);
-        terminate.setOnClickListener(new Button.OnClickListener() {
+        Button finish = (Button) findViewById(R.id.finishActivity);
+        finish.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
 // TODO Auto-generated method stub
-                finish();
-// end activity.
+                Intent intent = new Intent(direction4.this, MainActivity.class);
+// to start main activity
+                startActivity(intent);
+// start main activity
             }
-
         });
-
     }
 }
